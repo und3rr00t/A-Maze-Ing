@@ -1,0 +1,21 @@
+[project]
+name = "mazegen"
+version = "3.0.0"
+authors = [
+    {name = "Adam Raji"},
+    {name = "Ousama Ed-Dahbi"}
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.0.0"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "flake8 (>=7.3.0)",
+    "mypy (>=1.19.1)"
+]

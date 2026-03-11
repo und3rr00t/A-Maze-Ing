@@ -1,0 +1,23 @@
+# --- Maze Configuration ---
+
+# --------------------------------------
+# Required keys:
+
+WIDTH=10
+HEIGHT=10
+
+ENTRY=0,0
+EXIT=9,9
+
+OUTPUT_FILE=a_maze_ing.out
+
+# PERFECT: choices(True, False)
+PERFECT=True
+
+# --------------------------------------
+# Additional Keys:
+
+# SEED=1769678149
+
+# ALGORITHM: choices (DFS, WILSON)
+ALGORITHM=DFS
