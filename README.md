@@ -177,11 +177,6 @@ Each row is a hexadecimal encoding of cell wall bits. The `SOLUTION` field is a 
 - [Jamis Buck — Maze Algorithms Blog](https://weblog.jamisbuck.org/2011/2/7/maze-generation-algorithm-recap)
 - [Mypy documentation](https://mypy.readthedocs.io/en/stable/)
 
-### AI Usage
 
-AI was used in a limited capacity as a small assistant for two specific tasks:
-
-- **Debugging**: Occasionally consulted to help understand error messages (e.g., mypy type errors, curses color pair issues). All fixes were implemented and validated by the authors themselves.
-- **README**: Used to help draft and structure this README file.
 
 All design decisions, algorithms, architecture, and code were written entirely by oused-da and adraji.
